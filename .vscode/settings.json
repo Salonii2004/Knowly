@@ -1,0 +1,21 @@
+{
+  // Disable VS Code's built-in CSS validation (it doesn't know Tailwind rules)
+  "css.validate": false,
+  "scss.validate": false,
+  "less.validate": false,
+
+  // Make Tailwind work in different file types
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "html",
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact",
+    "vue": "vue",
+    "svelte": "svelte"
+  },
+
+  // Enable Tailwind class autocomplete & IntelliSense
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.inlineSuggest.enabled": true
+}

@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "composite": true, // Required for project references
+    "declaration": true, // Emit .d.ts files
+    "noEmit": false, // Allow emission of declarations
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "types": ["vite/client"] // Include Vite types for vite.config.ts
+  },
+  "include": ["vite.config.ts"]
+}
